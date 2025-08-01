@@ -8,6 +8,7 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form post="#">
 <label for ="name">Name:</label>
 <input type="text" id="name" placeholder="Name" required="Yes">
 <br><br>
@@ -17,8 +18,8 @@
 	<br><br>
 
 	<label for ="gender"> Gender:</label>
-   Male <input type ="radio" id ="gender_m" required="Yes">
-   Female <input type ="radio" id ="gender_f" required="Yes">
+   Male <input type ="radio" id ="gender_m" required="Yes" name="gender">
+   Female <input type ="radio" id ="gender_f" required="Yes" name="gender">
   <br><br>
 	
     <label for ="car brands"> Car Brands:</label>
@@ -49,12 +50,13 @@
 	<input type="Password" id="password" placeholder="Password" required="Yes">
 	<br><br>
 	
-	I agree to the TOS <input type =" checkbox" id="tos" type="checkbox">
-         <br><br>
+	<label for="i agree">I agree to the TOS </label>
+	<input type =" checkbox" id="tos" type="checkbox">
+  <br><br>
 
 	<script type="text/javascript" src="./script.js">
 </script>
-
+	</form>
 </body>
 
 </html>
